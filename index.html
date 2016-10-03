@@ -1,0 +1,33 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Login</title>
+	<link rel="stylesheet" href="./style.css">
+	<script type="text/javascript" src="javascript.js"></script>
+</head>
+<body>
+	<div id="central">
+		<div id="banp">
+			<div id="banner">
+				<h1 id="txtbanner">Empresa</h1>
+			</div>
+		</div>
+		<div id="loginc">
+			<div id=boton>
+				<button class="button" onclick="cargo(1)">Caja</button>
+				<button class="button"onclick="cargo(2)">Inventario</button>
+				<button class="button" onclick="cargo(3)">Proveedor</button>
+			</div>
+			<p id="cargo">&nbsp </p>
+			<FORM name=form action="pagm.html">
+			<P>Usuario:    <br><INPUT type=text name=login> 
+			<P>Contraseña: <br><INPUT type=password name=password>
+			<br>
+			<div id="logear">
+				<input type="button" class="button" value="Acceder" onclick="acceso()">
+			</div>
+		</div>
+	</div>
+</FORM> 
+</body>
+</html>

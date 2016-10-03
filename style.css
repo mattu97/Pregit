@@ -1,0 +1,57 @@
+body {
+   background-image: url("fondo.jpg");
+}
+#central{
+	font-variant: small-caps;
+	margin:100 auto;
+	display:block;
+	width:400px;
+	height:400px;
+	background: #333333;
+	border: 2px solid #000000;
+   border-radius: 20px;
+   padding:10px 0px;
+}
+
+.button{
+	border-radius: 6px;
+	background-color: #3F3F3F;
+   border: none;
+   color: white;
+   padding: 5px 10px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 12px;
+   margin: 4px 2px;
+   cursor: pointer;
+}
+
+#banp{
+	margin:0 auto;
+	display:block;
+	width:398px;
+	height:150px;
+	background: #333333;
+	border: 2px solid #000000;
+   border-radius: 20px;
+   padding:10px 0px;
+}
+
+#banner{
+	text-align:center;
+	font-size:24pt;
+	font-family:"Geneva","Arial","Helvetica",Sans-serif;
+}
+
+#loginc{
+	text-align:center;
+   width:398px;
+	height:220px;
+   border: 2px solid #000000;
+   border-radius: 20px;
+	background: #333333;
+	margin-top:2px;
+}
+
+
